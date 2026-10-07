@@ -1,4 +1,5 @@
 answer1 = input("School is starting - do you want to skip?    ")
+
 if answer1 == "yes":
     answer2 = input("ok then do you want to go get breakfeast")
     if answer2 == "yes":
@@ -6,10 +7,8 @@ if answer1 == "yes":
     elif answer2 == "No": 
         print("lets just want to sleep in")
         print("Ok you get 2 hours of extra sleep")
-    else:
-   
-       
-
+    else: 
+        print ("help me")
 elif answer1 == "no":
     answer3 = input("do you wanna go to first block comp?")
     if answer3 == "yes":
@@ -21,11 +20,19 @@ elif answer1 == "no":
             print("oh no a teacher is coming hide your phone")
         elif answer3 == "no":
             print("ok lets just keep quiet")
+            print ("ok well the day iz over")
         else: 
             print("yes or no")
                     
     else:
-        print("Answer only Yes or No")
+        print("Answer only yes or no")
 
 else:
     print("Well, that isn’t an option!")
+answer3 = input (" did you have fun?")
+if answer3 == "yes":
+    print ("ok great")
+elif answer3 == "no":
+    print ("ok its okay")
+else:
+    print (" i thnk you should go to sleep now")
